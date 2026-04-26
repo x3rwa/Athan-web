@@ -1,0 +1,61 @@
+ body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f6f8;
+      color: #222;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 20px;
+      text-align: center;
+    }
+
+    select {
+      padding: 10px;
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+
+    .city-name {
+      font-size: 48px;
+      margin-bottom: 10px;
+    }
+
+    .current-time {
+      font-size: 28px;
+      margin-bottom: 40px;
+      color: #555;
+    }
+
+    .prayer-cards {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 25px 15px;
+      border-radius: 16px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+
+    .card h3 {
+      margin: 0 0 15px;
+      font-size: 22px;
+    }
+
+    .card p {
+      margin: 0;
+      font-size: 24px;
+      font-weight: bold;
+      color: #0b7a75;
+    }
+
+    @media (max-width: 768px) {
+      .prayer-cards {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }

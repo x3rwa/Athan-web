@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script type="module" src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <div class="container">
+
+
+
+    <h1 class="city-name" id="cityName"></h1>
+
+
+
+    <div class="current-time" id="currentDay">12:45 PM</div>
+
+    <div class="prayer-cards">
+      <div class="card">
+        <h3>Fajr</h3>
+        <p id="fajr">05:10</p>
+      </div>
+
+      <div class="card">
+        <h3>Dhuhr</h3>
+        <p id="dhuhr">12:20</p>
+      </div>
+
+      <div class="card">
+        <h3>Asr</h3>
+        <p id="asr">03:45</p>
+      </div>
+
+      <div class="card">
+        <h3>Maghrib</h3>
+        <p id="maghrib">06:30</p>
+      </div>
+
+      <div class="card">
+        <h3>Isha</h3>
+        <p id="isha">08:00</p>
+      </div>
+
+      <select id="countries">
+        <option value="" selected disabled hidden>Choose a City..</option>
+        <option value="SA" data-city="Riyadh">Riyadh</option>
+        <option value="SA" data-city="Jeddah">Jeddah</option>
+        <option value="SA" data-city="Makkah">Makkah</option>
+      </select>
+    </div>
+  </div>
+    
+</body>
+</html>
